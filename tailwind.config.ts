@@ -8,7 +8,11 @@ const config: Config = {
       pinki: '#DDB3AF',
     },
     fontFamily: {},
-    extend: {},
+    extend: {
+        fontFamily: {
+            oxanium: ["Oxanium", 'sans-serif']
+        }
+    },
   },
 };
 
