@@ -1,6 +1,11 @@
 import Image from "next/image"
 import ReminderHeading from "@/components/ReminderHeader"
 import ReminderComponent from "@/components/ReminderComponent"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Reminders",
+}
 
 export default function Reminders() {
   return (
