@@ -18,7 +18,7 @@ export default function Connections() {
                     <div className="grow-[13] aspect-square relative">
                         <Image src="/connections/reminder-circle.svg" alt="" width={2048} height={2048} className="w-full h-full object-contain" />
                         <div className="absolute inset-0 flex items-center justify-center font-oxanium text-center text-2xl text-[#1C1A24] max-w-10/12 m-auto">
-                            <span><span className="font-[600] text-3xl">Reminder</span> <br /> You have a date tonight</span>
+                            <span><span className="font-[600] text-2xl">Reminder</span> <br /> You have a date tonight</span>
                         </div>
                     </div>
                     <div className="grow-[2] relative bottom-1/5">
