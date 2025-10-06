@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Wallpoet&display=swap');
 
 @import "tailwindcss";
 
@@ -9,6 +9,10 @@
 
 .font-oxanium {
   font-family: 'Oxanium', 'sans-serif';
+}
+
+.font-wallpoet {
+  font-family: 'Wallpoet', 'serif';
 }
 
 /* @theme inline {
