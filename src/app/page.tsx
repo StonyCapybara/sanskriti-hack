@@ -11,7 +11,7 @@ export default function Home() {
     if(sessionStorage.getItem("loggedin") === "1") {
       router.replace("/welcome")
     }
-  }, [])
+  }, [router])
 
   return <div className="relative min-h-screen w-full bg-gradient-to-t from-[#1A0019] to-[#4F3C67] py-6">
         <div className="relative z-10">

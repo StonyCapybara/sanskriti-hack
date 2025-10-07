@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 
 export default function EntriesComponent() {
-    const [entries, setEntries] = useState([
+    const [entries, ] = useState([
             {name: "Journal Entry 1", time: "Today 6:57"},
             {name: "Journal Entry 2", time: "Today 6:57"},
             {name: "Journal Entry 3", time: "Today 6:57"},

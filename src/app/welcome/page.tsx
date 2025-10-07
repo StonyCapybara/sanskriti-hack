@@ -12,7 +12,7 @@ export default function Home() {
             </div>
             <div className="w-fit m-auto mt-12">
                 <div className="grid grid-cols-2 gap-8 justify-items-center">
-                    {["reminders", "connections", "notepad", "settings", "finance", "journal"].map((name,idx)=>{
+                    {["reminders", "connections", "notepad", "settings", "finance", "journal"].map((name)=>{
                         return <Link href={`/${name}`} key={name} className="cursor-pointer py-4 px-20 mx-2 transition duration-200 bg-gradient-to-b from-[#512F417F] hover:from-[#512F41] to-[#290F4C7F] hover:to-[#290F4C] w-[30vw] rounded-xl flex flex-col justify-between items-center">
                                 <div className="w-24 h-24 flex items-center justify-center">
                                     <Image src={`/welcome/${name}.svg`} alt={name} width={128} height={128} className="object-contain w-full h-full" />

@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
+import Imager from "next/image";
 
 export default function Drawpad() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -144,9 +145,11 @@ export default function Drawpad() {
             onPointerCancel={handlePointerUp}
             onPointerLeave={handlePointerUp}
           />
-          <img
+          <Imager
                 src="/logo.svg"
                 alt=""
+                width={128}
+                height={128}
                 className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-20 w-1/3"
             />
           <div className="absolute top-2 right-2 flex gap-2">

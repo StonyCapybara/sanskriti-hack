@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 export default function ConnectionsComponent() {
-    const [connections, setConnections] = useState([
+    const [connections, ] = useState([
             {name: "User 10", time: "Today 6:57"},
             {name: "User 11", time: "Today 6:57"},
             {name: "User 12", time: "Today 6:57"},
